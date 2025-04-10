@@ -6,6 +6,9 @@
 </template>
 
 <script setup>
+useHead({
+  title: "About Page",
+});
 // definePageMeta({
 //   layout: "custom",
 // });
