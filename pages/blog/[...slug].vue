@@ -1,13 +1,8 @@
-<!-- <template>
-  <div>Hello from the about page!</div>
-  <div>
-    <button @click="enableCustomLayout">Update layout</button>
-  </div>
-</template> -->
-
 <template>
-  <main class="prose dark:prose-invert prose-h1:text-2xl max-w-3xl mx-auto">
+  <main class="prose dark:prose-invert max-w-3xl mx-auto py-8 px-4">
     <div v-if="page">
+      <h1 class="text-2xl font-bold mb-4">{{ page.title }}</h1>
+      <p v-if="page.description" class="text-gray-600 mb-8">{{ page.description }}</p>
       <ContentRenderer :value="page" />
     </div>
     <div v-else class="empty-page">
@@ -23,15 +18,4 @@ const route = useRoute()
 const { data: page } = await useAsyncData(route.path, () => {
   return queryCollection('content').path(route.path).first()
 })
-// useHead({
-//   title: "About Page",
-// });
-// definePageMeta({
-//   layout: "custom",
-// });
-
-// dinamic layout
-// function enableCustomLayout() {
-//   setPageLayout("custom");
-// }
 </script>
