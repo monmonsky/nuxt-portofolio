@@ -1,3 +1,22 @@
+---
+title: 'Title of 2nd the page'
+description: 'meta description of the page'
+date: 2023-03-12
+publishedAt: '2023-03-12T17:15:00Z'
+head:
+  meta:
+    - name: 'keywords'
+      content: 'nuxt, vue, content'
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'author'
+      content: 'NuxtLabs'
+    - name: 'copyright'
+      content: '© 2022 NuxtLabs'
+    - name: 'og:title'
+      content: 'This is an OpenGraph title'
+---
+
 Second post on our website
  # Second post on our website
  ## Introduction

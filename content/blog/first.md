@@ -1,6 +1,8 @@
 ---
 title: 'Title of the page'
 description: 'meta description of the page'
+date: 2024-03-12
+published_date: '2024-03-12T17:15:00Z'
 head:
   meta:
     - name: 'keywords'
@@ -13,6 +15,7 @@ head:
       content: '© 2022 NuxtLabs'
     - name: 'og:title'
       content: 'This is an OpenGraph title'
+
 ---
 # First post on our website
 ## Introduction

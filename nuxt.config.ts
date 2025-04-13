@@ -11,9 +11,11 @@ export default defineNuxtConfig({
     classSuffix: ''
   },
   content: {
-    documentDriven: true,
-    markdown: {
-      anchorLinks: false
+    highlight: {
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark',
+      },
     }
   }
   // future: {

@@ -5,11 +5,11 @@ description: 'meta description of the page'
 
 ## About me
 
-I'm Monsky, I'm a developer and a Udemy Instructor. I'm 36, living in southern Poland with my wife and 2  golden retrievers. I'm vegan and pro-animal 🥑.
+I'm Monsky, I'm a developer. I'm 27, living in east Java.
 
-## What I teach on Udemy
+## What I learn on Udemy
 
-I teach mostly web development and I have courses on:
+I learn mostly web development and I have courses on:
 
 - Laravel (PHP framework)
 - Laravel & Vue & Inertia (PHP framework/JavaScript frontend framework)
@@ -21,8 +21,7 @@ I teach mostly web development and I have courses on:
 
 Here's a list of everyday used software and hardware:
 
-- MacBook Pro 16 2021
-- Rode NT USB microphone
+- MacBook Air M1
 - VSCode
 - Chrome
 - ScreenFlow (Mac only)

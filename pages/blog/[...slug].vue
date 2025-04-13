@@ -1,8 +1,7 @@
 <template>
-  <main class="prose dark:prose-invert max-w-3xl mx-auto py-8 px-4">
+  <main
+    class="prose dark:prose-invert prose-pre:bg-gray-100 dark:prose-pre:bg-gray-800 prose-pre:text-gray-700 dark:prose-pre:text-gray-300 max-w-3xl mx-auto py-8 px-4">
     <div v-if="page">
-      <h1 class="text-2xl font-bold mb-4">{{ page.title }}</h1>
-      <p v-if="page.description" class="text-gray-600 mb-8">{{ page.description }}</p>
       <ContentRenderer :value="page" />
     </div>
     <div v-else class="empty-page">
