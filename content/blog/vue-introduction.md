@@ -1,11 +1,11 @@
 ---
 description: A beginner's guide to getting started with Vue 3.
 image: /images/vue-logo.png
-publishedAt: 2023-03-12 17:15:00
 head:
   meta:
     - name: 'og:image'
       content: /images/vue-logo.png
+publishedAt: 2022-07-12 17:15:00
 ---
 # Introduction to Vue 3
 

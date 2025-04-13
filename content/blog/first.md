@@ -1,8 +1,5 @@
 ---
-title: 'Title of the page'
 description: 'meta description of the page'
-date: 2024-03-12
-published_date: '2024-03-12T17:15:00Z'
 head:
   meta:
     - name: 'keywords'
@@ -15,19 +12,24 @@ head:
       content: '© 2022 NuxtLabs'
     - name: 'og:title'
       content: 'This is an OpenGraph title'
-
+publishedAt: 2023-03-12 17:15:00
 ---
 # First post on our website
+
 ## Introduction
+
 This is some text. *This is italic*.
 
 ## Second Part
+
 Something more. **This is bold**.
 
 ### Also try lists
+
 Unordered lists:
- - Do the work
- - Collect benefits
+
+- Do the work
+- Collect benefits
 
 Numbered lists:
 
@@ -35,8 +37,9 @@ Numbered lists:
  2. Die
 
 Todo list:
- - [ ] Buy groceries
- - [ ] Pay bills
+
+- [ ] Buy groceries
+- [ ] Pay bills
 
 Tables:
 | Name | Surname |
@@ -45,7 +48,7 @@ Tables:
 
 ```html
 <html>
-	<div>Hello!</div>
+ <div>Hello!</div>
 </html>
 ```
 
