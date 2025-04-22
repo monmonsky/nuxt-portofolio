@@ -1,4 +1,11 @@
 <template>
+  <article class="prose dark:prose-invert max-w-none">
+    <ContentDoc path="/" />
+  </article>
+</template>
+
+
+<!-- <template>
   <div>
     Hello from the main page!
   </div>
@@ -30,4 +37,4 @@ useHead({
     }
   ]
 })
-</script>
+</script> -->
