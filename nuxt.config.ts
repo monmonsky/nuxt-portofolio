@@ -20,6 +20,11 @@ export default defineNuxtConfig({
         dark: 'github-dark',
       },
     }
+  },
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml'],
+    }
   }
   // future: {
   //   compatibilityVersion: 4,
